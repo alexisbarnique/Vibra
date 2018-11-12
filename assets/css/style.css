@@ -1,0 +1,41 @@
+@media (max-width: 767px){
+  div.video{
+    height: auto;
+  }
+  div.logo_vibra{
+    margin-top: 0em !important;
+  }
+}
+
+@media (max-width: 574px){
+  div.logo_vibra{
+    margin-top: 0em;
+  }
+}
+
+@media (max-width: 960px){
+  div.cont-body{
+    margin-left: 0em;
+    margin-right: 0em;
+    margin-top: 0em;
+  }
+}
+
+.video{
+  height: 703px;
+}
+
+.logo_vibra{
+  margin-top: 15em;
+}
+
+*{
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+}
+
+.cont-body{
+  margin-left: 3em;
+  margin-right: 3em;
+  margin-top: 0.4em;
+  background-color: #191919;
+}

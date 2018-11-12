@@ -1,0 +1,101 @@
+.container {
+  max-width: 960px;
+  /*max-height: 280px;
+  height: 280px;*/
+}
+.container_header {
+  justify-content: center;
+}
+
+/*
+ * Custom site header
+ */
+
+.site-header {
+  /*background-image: url(../img/header.png);
+  background-color: rgba(0, 0, 0, .85);*/
+  background-color: #0D1F36;
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header_a a {
+  font-family: 'Montserrat', sans-serif;
+  color: #FFF;
+  transition: ease-in-out color .15s;
+  border: 2px transparent solid;
+}
+.site-header_a a:hover {
+  font-family: 'Montserrat', sans-serif;
+  color: #FF00A4;
+  text-decoration: none;
+  border: 2px #FF00A4 solid;
+}
+.site-header_a a:active {
+  font-family: 'Montserrat', sans-serif;
+  color: #FF00A4;
+  text-decoration: none;
+  border: 2px #FF00A4 solid;
+}
+.site-header_a label {
+  justify-content: center;
+  text-align: center;
+  margin-letf: 5px;
+  height: 20px;
+  width: auto;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px
+}
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 5px;
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #e5e5e5;
+}
+
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+    justify-content: center;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }
